@@ -1,6 +1,4 @@
 import React from 'react'
-import ResumeCheckerProject from '../Assets/projectFolio/ResumeCheckerProject.png'
-import ShoppingCart from '../Assets/projectFolio/ShoppingCart.png'
 import ToDoApp from '../Assets/projectFolio/ToDoApp.png'
 import WeatherApp from '../Assets/projectFolio/WeatherApp.png'
 
@@ -8,20 +6,16 @@ const Projects = () => {
     const projects = [
         {
             id : 1,
-            src : ResumeCheckerProject
+            src : WeatherApp,
+            link:"abc.com",
+            code:
         },
         {
             id : 2,
-            src : ShoppingCart
+            src : ToDoApp,
+            link:"https://to-do-app-jade-nine.vercel.app/",
+            code:"https://github.com/Amit-Dev03/ToDoApp"
         },
-        {
-            id : 3,
-            src : ToDoApp
-        },
-        {
-            id : 4,
-            src : WeatherApp
-        }
     ]
   return (
     <div 
@@ -38,14 +32,14 @@ const Projects = () => {
 
         <div  className='grid sm:grid-cols-1 md:grid-cols-3 gap-8 px-12 sm:px-0'>
             {
-                projects.map(({id,src}) => (
+                projects.map(({id,src,link,code}) => (
                     
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg '>
-                        <img src={src} alt="Resume Checker Project" 
+                        <img src={src} alt="Project" 
                             className='rounded-md duration-200 hover:scale-105'/>
                         <div className='flex items-center justify-center'>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={link}>Demo</a></button>
+                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={code}>Code</a></button>
                         </div>
                     </div>
                 ))
