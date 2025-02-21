@@ -7,8 +7,8 @@ const Projects = () => {
         {
             id : 1,
             src : WeatherApp,
-            link:"abc.com",
-            code:
+            link:"https://weather-app-one-azure-77.vercel.app/",
+            code:"https://github.com/Amit-Dev03/WeatherApp"
         },
         {
             id : 2,
