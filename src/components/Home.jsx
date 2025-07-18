@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImage from '../Assets/heroImage.png'
+import heroImage from '../Assets/me.jpg'
 import { BsArrowReturnRight } from "react-icons/bs";
 import { Link } from 'react-scroll';
 
@@ -12,14 +12,12 @@ const Home = () => {
         justify-center h-full px-4 md:flex-row'>
 
             <div className='flex flex-col justify-center h-full'>
+                
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-                    I'm a Front-End Developer.
+                    I'm a DevOps Enginner.
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                     Hi everyone, I'm Amit Pandey, an MCA student at Jamia Millia Islamia (2024-26)
-                     with a passion for building amazing web experiences.
-                    Currently, I love to work on web application using Front-End technologies 
-                    like  HTML, Tailwind CSS , JavaScript & React. 
+                    Hi everyone, I'm Karan Negi, a Cloud Infrastructure Engineer at HCLTech. I bring strong hands-on experience with DevOps workflows and a solid understanding of various DevOps tools, enabling me to build and manage efficient cloud infrastructures.
                 </p>
 
                 <div>
@@ -36,7 +34,7 @@ const Home = () => {
 
             <div>
                 <img src={heroImage} alt="My profile" 
-                className='rounded-2xl mx-auto w-2/3 md:w-full' />
+                className='rounded-2xl mx-auto w-36 md:w-60' />
             </div>
         </div>
     </div>

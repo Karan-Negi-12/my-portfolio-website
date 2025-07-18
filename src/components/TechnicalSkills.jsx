@@ -1,13 +1,16 @@
 import React from 'react'
-import css from '../Assets/css.png'
+import Kub from '../Assets/kub.png'
 import github from '../Assets/github.png'
-import html from '../Assets/html.png'
-import Java from '../Assets/java.jpg'
-import javascript from '../Assets/javascript.png'
+import Cloud from '../Assets/cloud.webp'
+import Docker from '../Assets/Docker.webp'
+import Bash from '../Assets/Bash.jpg'
 import Python from '../Assets/python.jpg'
-import reactImage from '../Assets/react.png'
-import tailwind from '../Assets/tailwind.png'
-
+import Ansible from '../Assets/Ansible.webp'
+import Jenkins from '../Assets/Jenkins.webp'
+import Terraform from '../Assets/Terraform.png'
+import Web from '../Assets/Web.webp'
+import Prom from '../Assets/Prom.webp'
+import SolarWinds from '../Assets/SolarWinds.webp'
 
 const TechnicalSkills = () => {
 
@@ -15,38 +18,38 @@ const TechnicalSkills = () => {
 
         {
             id:1,
-            src:html,
-            title:"HTML",
+            src:Cloud,
+            title:"Cloud-Platforms",
             style:"shadow-orange-500"
         },
         {
             id:2,
-            src:css,
-            title:"CSS",
+            src:Kub,
+            title:"Kubernetes",
             style:"shadow-blue-500"
         },
         {
             id:3,
-            src:tailwind,
-            title:"Tailwind",
+            src:Docker,
+            title:"Docker",
             style:"shadow-sky-400"
         },
         {
             id:4,
-            src:javascript,
-            title:"JavaScript",
+            src:Bash,
+            title:"Bash",
             style:"shadow-yellow-500"
         },
         {
             id:5,
-            src:reactImage,
-            title:"React",
+            src:Ansible,
+            title:"Ansible",
             style:"shadow-blue-600"
         },
         {
             id:6,
-            src:Java,
-            title:"Java",
+            src:Terraform,
+            title:"Terraform",
             style:"shadow-orange-200"
         },
         {
@@ -58,8 +61,32 @@ const TechnicalSkills = () => {
         {
             id:8,
             src:github,
-            title:"GitHub",
+            title:"GitHub/Gitlabs",
             style:"shadow-orange-400"
+        },
+        {
+            id:9,
+            src:Jenkins,
+            title:"Jenkins",
+            style:"shadow-orange-400"
+        },
+        {
+            id:10,
+            src:Web,
+            title:"Web-Technologies",
+            style:"shadow-orange-300"
+        },
+        {
+            id:11,
+            src:Prom,
+            title:"Prometheus",
+            style:"shadow-orange-300"
+        },
+        {
+            id:12,
+            src:SolarWinds,
+            title:"SolarWinds",
+            style:"shadow-orange-300"
         },
     ]
 

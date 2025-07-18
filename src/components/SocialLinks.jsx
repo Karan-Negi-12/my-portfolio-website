@@ -13,7 +13,7 @@ const SocialLinks = () => {
                     LinkedIn<FaLinkedin size={30}/>
                 </>
             ),
-            href:"http://www.linkedin.com/in/amit-pandey-21683631b",
+            href:"https://www.linkedin.com/in/karan-negi-62529022b/",
 
         },
         {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                     GitHub<FaGithub size={30}/>
                 </>
             ),
-            href:"https://github.com/Amit-Dev03",
+            href:"https://github.com/Karan-Negi-12",
         },
         {
             id:3,
@@ -32,7 +32,7 @@ const SocialLinks = () => {
                     Mail<HiOutlineMail size={30}/>
                 </>
             ),
-            href:"mailto:pandeyamit2426@gmail.com",
+            href:"mailto:knegi2003@gmail.com",
 
         },
         {

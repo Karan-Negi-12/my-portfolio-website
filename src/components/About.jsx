@@ -14,17 +14,11 @@ const About = () => {
                 border-gray-500'>About</p>
             </div>
             <p className='text-xl mt-7'>
-                Hi, I am Amit Pandey, a frontend developer who loves turning
-                ideas into interactive web experiences. With a keen eye for
-                design and a passion for clean code, I focus on building smooth,
-                responsive, and engaging user interfaces.I am always exploring new
-                technologies, refining my skills, and working on exciting projects. 
+                Hi, I am Karan Negi, As a Cloud Infrastructure Engineer, I am passionate about optimizing infrastructure through automation and continuous delivery. I leverage my foundational knowledge in DevOps workflows and tools like Docker and Kubernetes to build scalable and efficient cloud environments, constantly seeking new opportunities to grow as an aspiring DevOps Engineer. 
             </p>
             <br />  
             <p  className='text-xl mt-2'>
-                Currently, I’m diving deep into React and JavaScript to create faster, more interactive web apps.
-                Recently, I developed a Shopping Cart using React and Redux, where I implemented efficient state management.
-                I’m passionate about creating seamless user experiences and improving accessibility for all.
+                Currently, I'm diving deep into CI/CD pipeline automation and infrastructure as code to build more robust and faster deployment cycles. Recently, I automated the deployment process for a critical application using Terraform and Jenkins, significantly reducing manual effort and improving reliability. I'm passionate about streamlining development workflows and fostering seamless collaboration across teams.
                 Feel free to reach out for collaborations or just to talk tech!
             </p> 
         </div>
